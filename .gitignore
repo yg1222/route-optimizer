@@ -1,0 +1,4 @@
+ignore_dir/
+__pycache__/
+.vscode/
+api_key

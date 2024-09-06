@@ -1,0 +1,14 @@
+<RCC>
+  <qresource>
+    <file>images/icons8-redo-64.png</file>
+    <file>images/icons8-undo-64.png</file>
+    <file>images/icons8-about-50.png</file>
+    <file>images/icon.ico</file>
+    <file>images/icons8-copy-paste-64.png</file>
+    <file>images/icons8-cut-50.png</file>
+    <file>images/icons8-help-48.png</file>
+    <file>images/icons8-paste-50.png</file>
+    <file>images/icons8-quit-50.png</file>
+    <file>images/icons8-reset-50.png</file>
+  </qresource>
+</RCC>

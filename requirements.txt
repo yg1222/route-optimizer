@@ -1,0 +1,5 @@
+pyperclip
+kivy
+networkx
+geocoder
+PySide6

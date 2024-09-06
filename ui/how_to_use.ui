@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>htuWidget</class>
+ <widget class="QWidget" name="htuWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>523</width>
+    <height>643</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../opt_resource.qrc">
+    <normaloff>:/images/icon.ico</normaloff>:/images/icon.ico</iconset>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>471</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt;&quot;&gt;Paste your addresses in the &amp;quot;Addresses&amp;quot; text-box, the one to the top-right (you must include an origin address as the first address). &lt;br /&gt;Each address should start in a new line. &lt;br /&gt;Format: &amp;quot;123 Example Road, City, Province&amp;quot;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt;&quot;&gt;Click on the &amp;quot;Optimize&amp;quot; button while the &amp;quot;Addresses&amp;quot; text-box contains your addresses to calculate and display your addresses in an optimized order for better mileage and fuel efficiency.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt;&quot;&gt;Click the &amp;quot;Open in Maps&amp;quot; button to open a Google Maps page with an itinerary in the optimized order.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt;&quot;&gt;Click on the &amp;quot;Copy Maps Link&amp;quot; to copy a link that will generate a Google Maps page with an itinerary in the optimized order. This link can be shared with a driver or a colleague. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt; text-decoration: underline; color:#202124;&quot;&gt;On an Android device:&lt;/span&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:8pt; text-decoration: underline;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;&lt;li style=&quot; font-size:8pt; background-color:transparent;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%;&quot;&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt; color:#202124;&quot;&gt;If &lt;/span&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Google Maps app for Android &lt;/span&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt; color:#202124;&quot;&gt;is installed and active, the URL launches Google Maps in the Maps app and performs the requested action.&lt;/span&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif';&quot;&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-size:8pt; background-color:transparent;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%;&quot;&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt; color:#202124;&quot;&gt;If the Google Maps app is not installed or is disabled, the URL launches Google Maps in a browser and performs the requested action.&lt;/span&gt; &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt; text-decoration: underline; color:#202124;&quot;&gt;On an iOS device:&lt;/span&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:8pt; text-decoration: underline;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;&lt;li style=&quot; font-size:8pt; background-color:transparent;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%;&quot;&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt; color:#202124;&quot;&gt;If &lt;/span&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Google Maps app for iOS &lt;/span&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt; color:#202124;&quot;&gt;is installed, the URL launches Google Maps in the Maps app and performs the requested action.&lt;/span&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif';&quot;&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-size:8pt; background-color:transparent;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%;&quot;&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt; color:#202124;&quot;&gt;If the Google Maps app is not installed, the URL launches Google Maps in a browser and performs the requested action.&lt;/span&gt; &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif, sans-serif'; font-size:12pt; color:#202124;&quot;&gt;On any other device, the URL launches Google Maps in a browser and performs the requested action.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Serif</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>How to Use</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../opt_resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
